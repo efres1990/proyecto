@@ -1,0 +1,35 @@
+{
+  "name": "Tfg_Football",
+  "version": "0.0.1",
+  "description": "Proyecto",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efres1990/tfg"
+  },
+  "author": "Case On It",
+  "license": "Private",
+  "bugs": {
+    "url": "https://github.com/efres1990/tfg/issues"
+  },
+  "homepage": "s",
+  "devDependencies": {
+    "lab": "^9.1.0"
+  },
+  "dependencies": {
+    "cheerio": "x",
+    "exec": "x",
+    "js2xmlparser": "x",
+    "jsonfile": "^2.2.3",
+    "locks": "^0.2.2",
+    "mongodb": "^2.1.7",
+    "node-fs": "x",
+    "ns": "^1.0.2",
+    "semaphore": "^1.0.5",
+    "terminal-menu": "^2.1.1"
+  }
+}
