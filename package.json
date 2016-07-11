@@ -1,35 +1,56 @@
 {
-  "name": "Tfg_Football",
-  "version": "0.0.1",
-  "description": "Proyecto",
-  "main": "lib/index.js",
+  "name": "Football-webservice",
+  "version": "1.0.0",
+  "description": "Webservice Football",
+  "main": "index.js",
   "scripts": {
-    "start": "node lib/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/start.js",
+    "test": "lab -a code -t 100 -L --verbose"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/efres1990/tfg"
   },
-  "author": "Case On It",
-  "license": "Private",
+  "private": true,
+  "author": "eladio",
+  "collaborators": [
+    {
+      "name": "Eladio Freire",
+      "email": "e.freires@alumnos.urjc.es"
+    }
+  ],
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/efres1990/tfg/issues"
   },
-  "homepage": "s",
-  "devDependencies": {
-    "lab": "^9.1.0"
+  "engines": {
+    "npm": ">=3.6.0",
+    "node": ">=5.6.0"
   },
+  "homepage": "https://github.com/efres1990/tfg#readme",
   "dependencies": {
-    "cheerio": "x",
-    "exec": "x",
-    "js2xmlparser": "x",
-    "jsonfile": "^2.2.3",
-    "locks": "^0.2.2",
-    "mongodb": "^2.1.7",
-    "node-fs": "x",
-    "ns": "^1.0.2",
-    "semaphore": "^1.0.5",
-    "terminal-menu": "^2.1.1"
+    "boom": "^3.1.2",
+    "chokidar": "^1.4.3",
+    "eslint-config-hapi": "^9.1.0",
+    "eslint-plugin-hapi": "^4.0.0",
+    "glue": "^3.x.x",
+    "hapi-auth-hawk": "^3.x.x",
+    "hapi-mongodb": "^6.x.x",
+    "hapi-mysql": "^1.x.x",
+    "hoek": "^3.x.x",
+    "ignore-by-default": "^1.0.1",
+    "inert": "^3.2.0",
+    "joi": "^8.0.5",
+    "lodash.defaults": "^3.1.2",
+    "lout": "^9.0.0",
+    "ps-tree": "^1.0.1",
+    "touch": "^1.0.0",
+    "undefsafe": "^0.0.3",
+    "update-notifier": "^0.5.0",
+    "vision": "^4.1.0"
+  },
+  "devDependencies": {
+    "code": "^2.x.x",
+    "lab": "^10.x.x"
   }
 }
